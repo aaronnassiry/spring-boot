@@ -6,8 +6,6 @@ import java.time.Month;
 import java.util.List;
 @Service
 public class StudentService {
-    public StudentService() {
-    }
     public List<Student> getStudents() {
         return List.of(
                 new Student(
